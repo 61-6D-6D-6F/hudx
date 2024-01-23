@@ -1,4 +1,4 @@
-# hudx - inspired by [hmtx](https://htmx.org)
+# ![icon](https://github.com/61-6D-6D-6F/hudx/assets/30551234/5e52f922-1e3c-47eb-b351-9b108b91dc3d) hudx - inspired by [hmtx](https://htmx.org)
 
 Control multiple ajax calls and style changes via html attributes in a cli like manner.
 
