@@ -1,0 +1,34 @@
+{
+  "name": "hudx",
+  "version": "0.0.1",
+  "description": "Control multiple ajax calls and style changes via html attributes in a cli like manner.",
+  "main": "dist/hudx.min.js",
+  "unpkg": "dist/hudx.min.js",
+  "homepage": "https://github.com/61-6D-6D-6F/hudx",
+  "bugs": {
+    "url": "https://github.com/61-6D-6D-6F/hudx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/61-6D-6D-6F/hudx"
+  },
+  "scripts": {
+    "dist": "cp -r src/* dist/ && uglifyjs -m -o dist/hudx.min.js dist/hudx.js"
+  },
+  "keywords": [
+    "ajax",
+    "style",
+    "html",
+    "htmx"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/*.js"
+  ],
+  "author": "ammo",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
