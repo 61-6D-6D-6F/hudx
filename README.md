@@ -8,13 +8,20 @@ This small (200loc) package was created to add complex behaviour to a small widg
 
 Be warned: this is a toy project, not optimized for heavy interactions.
 
-# Install:
+# cdn:
+```html
+<script src="https://unpkg.com/hudx@0.0.1"></script>
 
+<div hudx hdx="click GET /some-html-response this outerHTML">
+  replace me
+</div>
+```
+
+# npm:
 ```
 npm install hudx --save
 ```
-
-# Basic usage:
+then
 ```html
 <div hudx hdx="click GET /some-html-response this outerHTML">
   replace me
@@ -38,7 +45,9 @@ hudx(element);
 
 # Examples:
 
-[Examples page](https://hudx-examples.up.railway.app/) content:
+[Example source code](https://github.com/61-6D-6D-6F/hudx-example-server)
+
+[Live example](https://hudx-examples.up.railway.app/) content:
 
 Insert response from the server
 - Insert single element
