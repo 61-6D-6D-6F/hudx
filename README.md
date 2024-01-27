@@ -10,7 +10,7 @@ Be warned: this is a toy project, not optimized for heavy interactions.
 
 # cdn:
 ```html
-<script src="https://unpkg.com/hudx@0.0.1"></script>
+<script src="https://unpkg.com/hudx@0.0.2"></script>
 
 <div hudx hdx="click GET /some-html-response this outerHTML">
   replace me
